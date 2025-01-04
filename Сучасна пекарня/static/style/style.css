@@ -1,0 +1,57 @@
+:root {
+  --color-primaty-dark: #31261a;
+  --color-primary-light: #faf4ea;
+  --color-brand-dark: #465929;
+  --color-brand-light: #819b57;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-primaty-dark);
+}
+
+/* base */
+ul {
+  list-style: none;
+}
+
+/* button */
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 8px;
+  padding: 16px 32px;
+  width: 238px;
+  height: 59px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+}
+.button:hover {
+  color: var(--color-brand-dark);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 8px;
+  padding: 16px 32px;
+  width: 238px;
+  height: 59px;
+  height: 59px;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* list */
+.green-list {
+    color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+}
+
+/* limk */
+.link{
+    color: var(--color-primary-light);
+}
+.link:hover{
+    color: var(--color-brand-light);
+}
